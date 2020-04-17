@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header .header-background {
+    width: 850px;
+    height: 400px;
+    background-color: #3b5998;
+    background-position: center;
+}
+
+.profile-buttons {
+    background-color: white;
+    border: 1px solid lightgray;
+    text-align: left;
+    position: relative;
+    top: 400px;
+    left: 175px;
+    height: 25px;
+    width: 625px;
+}
+
+.profile-photo {
+    background-image: url(https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-1/p160x160/90083246_10158596006038689_1916405705871458304_o.jpg?_nc_cat=102&_nc_sid=dbb9e7&_nc_ohc=1KqxusohHRYAX_XrXrH&_nc_ht=scontent-ort2-2.xx&_nc_tp=6&oh=04200ec283a079138aaafcc10fc165f5&oe=5EBFBE1A);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -300px;
+    left: 15px;
+}
+
+.header-info {
+    list-style: none;
+    position: relative;
+    top: -150px;
+    left: 175px;
+    margin: 10px;
+}
+
+.header-info h1 {
+    margin-bottom: -5px;
+    color: white;
+}
+
+.header-info h4 {
+    color: whitesmoke;
+}
