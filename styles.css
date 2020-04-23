@@ -179,6 +179,7 @@ nav {
     background-color: white;
     position: relative;
     z-index: 6;
+    top: 10px;
 }
 
 .support-buttons button {
