@@ -6,6 +6,7 @@
 
 body {
     width: 850px;
+    background-color: grey;
 }
 
 .header .header-background {
@@ -117,11 +118,11 @@ nav {
 
 .Coloum-one {
     width: 328px;
-    height: 50px;
+    height: 225px;
     background-color: white;
     position: relative;
     z-index: 5;
-    top: -300px;
+    top: -335px;
     left: -261px;
 }
 
@@ -136,10 +137,62 @@ nav {
 .Coloum-two {
     width: 512px;
     position: relative;
-    height: 100px;
+    height: 350px;
     z-index: 6;
     background-color: white;
-    top: -370px;
+    top: -560px;
     left: 174px;
-    text-align: center;
+}
+
+.profile-photo-2 {
+    background-color: #3b5998 ;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 6;
+    top: 20px;
+    left: -220px;
+}
+
+.Coloum-2-info {
+    position: relative;
+    top: -37px;
+    left: 100px; 
+    margin: -10px;
+}
+
+.Cover-Change {
+    background-color: #3b5998 ;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 175px;
+    width: 512px;
+    position: relative;
+    z-index: 6;
+}
+
+.support-buttons {
+    height: 36px;
+    width: 512px;
+    background-color: white;
+    position: relative;
+    z-index: 6;
+}
+
+.support-buttons button {
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 100%;
+}
+
+.support-buttons button:hover {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 100%;
+    cursor: pointer;
 }
